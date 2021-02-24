@@ -46,7 +46,7 @@ h1 {
 }
 
 #list li:hover {
-	background: #eee;
+	background: rgba(113, 177, 177, 0.089);
 }
 
 #list li.item {
@@ -76,7 +76,7 @@ h1 {
 }
 
 #list li.item a:hover i {
-	color: grey;
+	color: rgba(231, 6, 6, 0.925);
 	transition: all 100ms linear;
 }
 
@@ -98,15 +98,7 @@ input {
 ::-webkit-input-placeholder {
 	color: #bbb;
 }
-::-moz-placeholder {
-	color: #bbb;
-}
-:-ms-input-placeholder {
-	color: #bbb;
-}
-:-moz-placeholder {
-	color: #eee;
-}
+
 
 input#add-item:focus {
     border-bottom: 2px solid #a2c7ec;

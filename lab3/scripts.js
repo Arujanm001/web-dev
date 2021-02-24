@@ -4,7 +4,7 @@ model = { items: [] }
 view = {
 
 	clearList: function() {
-		var range = document.createRange();
+		let range = document.createRange();
 		range.selectNodeContents(document.getElementById("list"));
 		range.deleteContents();
 	},
@@ -17,7 +17,7 @@ view = {
 
 			list = document.getElementById("list")
 
-			for (var i = model.items.length - 1; i >= 0; i--) {
+			for (let i = model.items.length - 1; i >= 0; i--) {
 				console.log(model.items[i])
 
 				item = document.createElement('li');
@@ -36,7 +36,7 @@ view = {
 				
 				
 				if (model.items[i].completed) {
-					span.setAttribute("style", "text-decoration: line-through; color: #bbb")
+					span.setAttribute("style", "text-decoration: line-through; color: #5F9EA0")
 				}
 
 
